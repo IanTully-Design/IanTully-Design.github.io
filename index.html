@@ -2,52 +2,77 @@
 <html>
 
 <head>
-    <title>PopUp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width">
+    <meta name="description" content="Ian Tully web design Bath UK"> 
+    <meta name="keywords" content="web design, Bath UK, Ian Tully, website," >
+    <meta name="author" content="Ian Tully">
+    <title>Ian Tully Web Design | Home</title>
     <script src="script.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
 
-<body>
+<body> 
     <header>
-        <div class="row">
-            <div class="logo">
-                <img src="image/logopopout-01.png">
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Ian Tully</span> Web Design</h1>
             </div>
-            <ul class="main-nav">
-                <li class="active"><a href="">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
-
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a> </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="hero">
-            <h1>Get ready this summer</h1>
-            <div class="button">
-                <a href="#" class="btn btn-one">Watch video</a>
-                <a href="#" class="btn btn-two">Explore More </a>
-            </div>
-        </div>
-
 
     </header>
 
-    <h2>Hello Visual Studio Code</h2>
-    <p>Chip dip</p>
-    <button onclick="runCode()">Click Me</button>
+    <section id="showcase">
+        <div class="container">
+            <h1>AFORDABLE WEB DESIGN</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis 
+                lorem mauris. Aliquam efficitur neque id malesuada euismod. Nullam porttitor augue</p>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>subscribe to our newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="img/LogoHtml.png" alt="Logo HTML5">
+                <h3>HTML5 Markup</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis lorem mauris. Aliquam</p>
+            </div>
+            <div class="box">
+                <img src="img/LogoCss.png" alt="Logo CSS3">
+                 <h3>CSS3 Styling</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis lorem mauris. Aliquam</p>
+            </div>
+            <div class="box">
+                 <img src="img/LogoDesign.png" alt="Logo Design">
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis lorem mauris. Aliquam</p>
+            </div>
+        </div>
+    </section>
+
+
+   
 
     <footer>
-            <ul class="ftr">
-                    <li class="active"><a href="">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
+        <p>Ian Tully Web Design, Copyrite &copy; 2018</p>
      
     </footer>
 </body>
