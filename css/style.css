@@ -21,7 +21,7 @@ ul{
 
 .button_1{
     height: 38px;
-    background: #e8491d;
+    background: #1abc9c;
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
@@ -39,12 +39,16 @@ ul{
 
 
 /* header */
+.logoheader {
+padding-bottom: 20px;
+}
+
 header{
 background-color: #35425a;
 color: #ffffff;
 padding-top: 30px;
 min-height: 70px;
-border-bottom: #e8491d 3px solid;
+border-bottom: #1abc9c 3px solid;
 }
 
 header a{
@@ -64,16 +68,23 @@ header #branding{
     float: left;
 }
 
-header #branding h1{
-    margin: 0;
+.header-logo{
+	display: block;
+	width: 198px;
+	height: 70px;
+	background-image: url(../img/SiteLogo.png);
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }
+
 
 header nav{
     float: right;
 }
 
 header .highlight, header .current a{
-    color: #e8491d;
+    color: #1abc9c;
     font-weight: bold;
 }
 
@@ -173,13 +184,29 @@ ul#services li{
 
 /* footer */
 
+.DetailsFooter{
+	color: white;
+}
+
+.logofooter{
+	padding-top: 10px;
+}
+
+
 footer {
-    padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #e8491d;
+    background-color: #35425a;
     text-align: center;
 }
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+	color:  #ffffff;
+}
+
 
 /* media-queries */
 @media(max-width: 768px){
