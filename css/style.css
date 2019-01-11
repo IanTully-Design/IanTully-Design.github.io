@@ -184,7 +184,8 @@ ul#services li{
 
 /* footer */
 
-.DetailsFooter{
+.textdecoration{
+	text-decoration: none;
 	color: white;
 }
 
